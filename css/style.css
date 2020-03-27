@@ -13,3 +13,57 @@
 .hero {
     text-align: center;
 }
+
+.hero h1 {
+    color: var(--very-dark-blue);
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+.hero h2 {
+    color: var(--very-dark-blue);
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.hero h3 {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    font-size: 0.75em;
+}
+
+.card {
+    border-top: 0.25em solid;
+    box-shadow: 0px 8px 15px var(--grayish-blue);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.25em;
+}
+
+.card p {
+    color: var(--grayish-blue);
+    font-size: 0.75em;
+}
+
+.card h4 {
+    font-size: 1.1em;
+    color: var(--very-dark-blue);
+}
+
+.card.supervisor {
+    border-top-color: var(--cyan);
+}
+
+.card.karma {
+    border-top-color: var(--orange);
+}
+
+.card.team-builder {
+    border-top-color: var(--red);
+}
+
+.card.calculator {
+    border-top-color: var(--blue);
+}
