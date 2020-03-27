@@ -34,10 +34,14 @@
     font-size: 0.75em;
 }
 
+.card-container {
+    margin: 3em 1em;
+}
+
 .card {
     border-top: 0.25em solid;
     box-shadow: 0px 8px 15px var(--grayish-blue);
-    padding: 1em;
+    padding: 2em;
     margin: 1em;
     border-radius: 0.25em;
 }
@@ -49,6 +53,7 @@
 
 .card h4 {
     font-size: 1.1em;
+    margin: 0.5em 0;
     color: var(--very-dark-blue);
 }
 
