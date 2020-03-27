@@ -10,6 +10,10 @@
     --very-light-gray: hsl(0, 0%, 98%);
 }
 
+.body {
+    background-color: var(--very-light-gray);
+}
+
 .hero {
     text-align: center;
     margin: 2em 3em;
