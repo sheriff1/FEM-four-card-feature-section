@@ -44,8 +44,8 @@
 }
 
 .card {
-    border-top: 0.2em solid;
-    box-shadow: 0px 5px 15px var(--grayish-blue);
+    border-top: 0.25em solid;
+    box-shadow: 0px 5px 15px #DBE2F1;
     padding: 2em;
     margin: 1em;
     border-radius: 0.25em;
