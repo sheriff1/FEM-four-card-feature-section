@@ -12,6 +12,7 @@
 
 .hero {
     text-align: center;
+    margin: 3em;
 }
 
 .hero h1 {
@@ -19,6 +20,7 @@
     font-weight: 200;
     padding: 0;
     margin: 0;
+    font-size: 1.75em;
 }
 
 .hero h2 {
@@ -26,6 +28,7 @@
     font-weight: 600;
     padding: 0;
     margin: 0;
+    font-size: 1.75em;
 }
 
 .hero h3 {
@@ -39,8 +42,8 @@
 }
 
 .card {
-    border-top: 0.25em solid;
-    box-shadow: 0px 8px 15px var(--grayish-blue);
+    border-top: 0.2em solid;
+    box-shadow: 0px 5px 15px var(--grayish-blue);
     padding: 2em;
     margin: 1em;
     border-radius: 0.25em;
@@ -71,4 +74,12 @@
 
 .card.calculator {
     border-top-color: var(--blue);
+}
+
+.float-img-right {
+    text-align: right;
+}
+
+.content {
+    margin: 3em;
 }
